@@ -28,15 +28,7 @@ namespace eoe {
             return name;
         }
         
-        virtual void release(){
-            Object::release();
-            
-            if (retainCount()<=0) {
-                delete this;
-            }
-        }
-        
-        ~People(){
+        virtual ~People(){
             std::cout<<"delloc People\n";
         }
     private:

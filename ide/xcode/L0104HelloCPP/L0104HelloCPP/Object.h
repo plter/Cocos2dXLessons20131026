@@ -28,10 +28,14 @@ public:
     
     virtual void release(){
         _retainCount--;
+        
+        if (_retainCount<=0) {
+            delete this;
+        }
     }
     
-    virtual void delloc(){
-        delete this;
+    virtual ~Object(){
+        std::cout<<"Delete Object\n";
     }
     
 private:
