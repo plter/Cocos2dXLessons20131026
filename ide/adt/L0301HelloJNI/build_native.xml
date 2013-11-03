@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HelloJNI" default="BuildJNI">
+    <target name="BuildJNI">
+        <javah destdir="./jni" classpath="./bin/classes" class="cn.eoe.hellojni.JNI"></javah>
+    </target>
+</project>

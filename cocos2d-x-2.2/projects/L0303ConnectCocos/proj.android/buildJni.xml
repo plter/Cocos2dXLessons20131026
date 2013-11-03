@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ConnCC" default="BuildCCBridge">
+    <target name="BuildCCBridge">
+        <javah destdir="../Classes/" classpath="./bin/classes" class="cn.eoe.conncc.CCBridge"></javah>
+    </target>
+</project>
