@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ShowImg" default="BuildBridgeH">
+    <target name="BuildBridgeH">
+        <javah destdir="../Classes" classpath="./bin/classes/" class="cn.eoe.showimg.Bridge"></javah>
+    </target>
+</project>
