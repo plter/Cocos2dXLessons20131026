@@ -85,7 +85,6 @@ bool HelloWorld::init()
     writeToSdCard.open("/mnt/sdcard/data.txt");
     writeToSdCard<<"Hello Android \n";
     writeToSdCard.close();
-    
 #endif
     
     return true;

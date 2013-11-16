@@ -1,6 +1,5 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
-#include "Box2D.h"
 
 USING_NS_CC;
 
@@ -13,7 +12,6 @@ AppDelegate::~AppDelegate()
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
-    
     // initialize director
     CCDirector* pDirector = CCDirector::sharedDirector();
     CCEGLView* pEGLView = CCEGLView::sharedOpenGLView();
