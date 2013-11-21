@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///Applications/XAMPP/htdocs/Cocos2d-html5-v2/HelloCC/HelloCC.iml" filepath="/Applications/XAMPP/htdocs/Cocos2d-html5-v2/HelloCC/HelloCC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWeb.iml" filepath="$PROJECT_DIR$/HelloWeb.iml" />
+    </modules>
+  </component>
+</project>
+
